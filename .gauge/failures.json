@@ -1,14 +1,11 @@
 {
 	"Args": [
 		"run",
-		"--tags",
-		"test",
-		"--parallel",
-		"-n",
-		"2",
-		"--dir=C:\\Work\\GAUGE"
+		"--machine-readable",
+		"--hide-suggestion",
+		"--simple-console"
 	],
 	"FailedItems": [
-		"specs\\example.spec:9"
+		"specs\\test.spec:8"
 	]
 }

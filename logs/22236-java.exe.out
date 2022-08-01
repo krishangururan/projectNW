@@ -1,0 +1,32 @@
+Listening for transport dt_socket at address: 56462
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 2322milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2322"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56490"}
+{"logLevel":"info","message":"Listening on port:56490"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'web.utils.CommonStepsUI.open_link' and 'web.utils.CommonStepsUI.open_link'"}
+{"logLevel":"debug","message":"Found Open link {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.pages.LoginPageSteps.userTypeLogonBU' and 'web.pages.LoginPageSteps.userTypeLogonBU'"}
+{"logLevel":"debug","message":"Found Starting logon to bank user as {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.utils.CommonStepsUI.prestep_before_login' and 'web.utils.CommonStepsUI.prestep_before_login'"}
+{"logLevel":"debug","message":"Found Setting env in property for execution in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.utils.CommonStepsUI.openL_link_For_BU_SSO' and 'web.utils.CommonStepsUI.openL_link_For_BU_SSO'"}
+{"logLevel":"debug","message":"Found Open link {} for BU SSO with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.pages.LoginPageSteps.userApplicationWithProfile' and 'web.pages.LoginPageSteps.userApplicationWithProfile'"}
+{"logLevel":"debug","message":"Found Login to the {} application with {} profile in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tOpen link {} for BU SSO with {} : public void openL_link_For_BU_SSO(String url, String userType)"}
+{"logLevel":"debug","message":"\tLogin to the {} application with {} profile : public void userApplicationWithProfile(String userApplication, String userType)"}
+{"logLevel":"debug","message":"\tStarting logon to bank user as {} : public void userTypeLogonBU(String userRole)"}
+{"logLevel":"debug","message":"\tOpen link {} : public void open_link(String url)"}
+{"logLevel":"debug","message":"\tSetting env in property for execution : public void prestep_before_login()"}
+UPDATE_JIRA_TEST_STATUS is set to No
+C:\Users\Krishan Gururani\Automation Activity\Deloitte\projectNW\env\default\custom.properties: The process cannot access the file because it is being used by another process
+Listening for transport dt_socket at address: 56462

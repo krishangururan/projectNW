@@ -1,11 +1,8 @@
 [
-	"gauge",
+	"C:\\Users\\Krishan Gururani\\Tools\\Automation Tools\\gauge-1.4.3-windows.x86_64\\gauge.exe",
 	"run",
-	"--tags",
-	"test",
-	"--parallel",
-	"-n",
-	"2",
-	"--dir=C:\\Work\\GAUGE",
-	"C:\\Work\\GAUGE\\specs"
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/Users/Krishan Gururani/Automation Activity/Deloitte/projectNW/specs/test.spec:8"
 ]

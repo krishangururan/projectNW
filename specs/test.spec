@@ -9,7 +9,6 @@ Tags: Web
 ------------------------------
 Tags: MultibankingBU
 
-
 * Setting env in property for execution
 * Login to the "Bank User" application with "MB_BANK_ADMIN" profile
 
